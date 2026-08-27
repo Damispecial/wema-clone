@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60" width="200" height="120">
+  <defs>
+    <!-- Left body gradient -->
+    <linearGradient id="pinkGradLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF75D8" />
+      <stop offset="100%" stop-color="#C832B2" />
+    </linearGradient>
+    
+    <!-- Right body gradient -->
+    <linearGradient id="pinkGradRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D82BA1" />
+      <stop offset="100%" stop-color="#8E0A85" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Figure (Larger) -->
+  <!-- Head -->
+  <circle cx="43" cy="21" r="9.5" fill="#D2D2D2" />
+  <!-- Body -->
+  <path d="M 23 48 A 20 20 0 0 1 63 48 L 53 48 A 10 10 0 0 0 33 48 Z" fill="url(#pinkGradLeft)" />
+
+  <!-- Right Figure (Smaller) -->
+  <!-- Head -->
+  <circle cx="63" cy="27" r="7.5" fill="#C2C2C2" />
+  <!-- Body -->
+  <path d="M 48 48 A 15 15 0 0 1 78 48 L 70 48 A 7 7 0 0 0 56 48 Z" fill="url(#pinkGradRight)" />
+</svg>

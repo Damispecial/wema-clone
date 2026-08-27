@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <defs>
+    <!-- Top Layer Gradient -->
+    <linearGradient id="layerTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA1E8" />
+      <stop offset="100%" stop-color="#DF41C1" />
+    </linearGradient>
+
+    <!-- Middle Layer Gradient -->
+    <linearGradient id="layerMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EE43C8" />
+      <stop offset="100%" stop-color="#BF209C" />
+    </linearGradient>
+
+    <!-- Bottom Layer Gradient -->
+    <linearGradient id="layerBot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D42BB3" />
+      <stop offset="100%" stop-color="#8E087B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bottom Layer -->
+  <path d="M 50 48 L 88 28 L 50 8 L 12 28 Z" transform="translate(0, 32)" fill="url(#layerBot)" />
+
+  <!-- Middle Layer -->
+  <path d="M 50 48 L 88 28 L 50 8 L 12 28 Z" transform="translate(0, 16)" fill="url(#layerMid)" />
+
+  <!-- Top Layer -->
+  <path d="M 50 48 L 88 28 L 50 8 L 12 28 Z" fill="url(#layerTop)" />
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="240" height="200">
+  <defs>
+    <!-- Main Box Gradient -->
+    <linearGradient id="bubbleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFAAF0" />
+      <stop offset="50%" stop-color="#E135C2" />
+      <stop offset="100%" stop-color="#B3059C" />
+    </linearGradient>
+
+    <!-- Dark Tail Gradient -->
+    <linearGradient id="tailGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4D003F" />
+      <stop offset="100%" stop-color="#6E005A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Bottom Tail / Fold -->
+  <polygon points="35,62 65,62 35,92" fill="url(#tailGrad)" />
+
+  <!-- Main Rectangle Speech Bubble -->
+  <rect x="15" y="10" width="90" height="52" rx="2" fill="url(#bubbleGrad)" />
+
+  <!-- White Question Mark Text -->
+  <text x="60" y="47" font-family="Arial, sans-serif" font-weight="bold" font-size="34" fill="#FFFFFF" text-anchor="middle">?</text>
+</svg>

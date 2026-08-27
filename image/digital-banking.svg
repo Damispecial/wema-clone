@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 180" width="200" height="360">
+  <defs>
+    <!-- Frame Gradient -->
+    <linearGradient id="phoneFrame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB3EC" />
+      <stop offset="100%" stop-color="#E032C1" />
+    </linearGradient>
+    
+    <!-- Screen Gradient -->
+    <linearGradient id="phoneScreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBF8" />
+      <stop offset="100%" stop-color="#FFC0ED" />
+    </linearGradient>
+    
+    <!-- Bottom Chin Gradient -->
+    <linearGradient id="phoneChin" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EB38CA" />
+      <stop offset="100%" stop-color="#C00E9F" />
+    </linearGradient>
+  </defs>
+
+  <!-- Phone Body Outer Outline -->
+  <rect x="5" y="5" width="90" height="170" rx="12" ry="12" fill="url(#phoneFrame)" />
+
+  <!-- Main Screen Display -->
+  <rect x="9" y="18" width="82" height="128" rx="3" ry="3" fill="url(#phoneScreen)" />
+
+  <!-- Top Earpiece Speaker -->
+  <rect x="42" y="10" width="16" height="3" rx="1.5" ry="1.5" fill="#5E004E" />
+
+  <!-- Bottom Chin Area -->
+  <path d="M 5 146 L 95 146 L 95 163 A 12 12 0 0 1 83 175 L 17 175 A 12 12 0 0 1 5 163 Z" fill="url(#phoneChin)" />
+
+  <!-- Home Button/Sensor -->
+  <circle cx="50" cy="160" r="5" fill="#2B0024" />
+</svg>
