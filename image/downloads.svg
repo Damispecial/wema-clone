@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <defs>
+    <!-- Smooth Pink-to-Purple Linear Gradient -->
+    <linearGradient id="downloadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA4ED" />
+      <stop offset="50%" stop-color="#E038C3" />
+      <stop offset="100%" stop-color="#A50791" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circle Background -->
+  <circle cx="50" cy="50" r="46" fill="url(#downloadGrad)" />
+
+  <!-- Download Arrow Body & Pointer -->
+  <path d="M 44 24 H 56 V 46 H 68 L 50 64 L 32 46 H 44 Z" fill="#FFFFFF" />
+
+  <!-- Horizontal Bar Base -->
+  <rect x="31" y="68" width="38" height="7" fill="#FFFFFF" />
+</svg>

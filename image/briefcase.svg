@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <!-- Briefcase Top Handle -->
+  <path d="M 40 24 A 10 10 0 0 1 60 24 V 32 H 40 Z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Main Body Top -->
+  <path d="M 24 34 H 76 C 80 34 82 36 82 40 V 52 C 82 56 80 58 76 58 H 24 C 20 58 18 56 18 52 V 40 C 18 36 20 34 24 34 Z" fill="#FFFFFF" />
+
+  <!-- Center Keyhole Cutout -->
+  <rect x="47" y="42" width="6" height="8" rx="3" fill="none" />
+
+  <!-- Main Body Bottom Tray -->
+  <rect x="18" y="64" width="64" height="16" rx="6" fill="#FFFFFF" />
+</svg>
