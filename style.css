@@ -344,17 +344,42 @@ body {
 .link-card:hover {
   transform: translateY(-6px) scale(1.04);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
-}/* PERSON 3: Custom Cards to Sustainability */
+}
+
+@media (max-width: 1100px) {
+  .main-nav ul,
+  .sub-nav ul {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .top-row {
+    flex-wrap: wrap;
+  }
+  .main-nav ul {
+    order: 3;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 12px;
+  }
+  .sub-nav ul {
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+}
+/* PERSON 3: Custom Cards to Sustainability */
 
 .person3-container {
-  width: min(1120px, 90%);
+  width: 90%;
   margin: 0 auto;
   
 }
 
 .custom-cards,
 .alatpay,
-.investor-relations,
+.person3-investor-relation,
 .sustainability {
   padding: 50px 0;
  
@@ -365,6 +390,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 64px;
+
 }
 
 .person3-copy h2,
@@ -375,7 +401,8 @@ body {
 }
 
 .person3-copy p,
-.person3-section-heading p {
+.person3-section-heading p 
+.person3-section-heading p{
   max-width: 560px;
   font-size: 1rem;
   line-height: 1.75;
@@ -408,7 +435,86 @@ body {
   font-weight: 300;
   text-decoration: none;
 }
+.person3-investor-relation{
+  background-color: #54164f;
+  width: 100%;
+  height: 720px;
+  
+  
+}
+.investor-relation-first-innerbox{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 54px;
+  width: 90%;
+  margin: -48px 0px 0px 70px;
+}
 
+.first-innerbox{
+  height: 500px ;
+  padding: 30px 0px 30px 0px;
+/* margin-right: 30px; */
+/* margin-left: -10px; */
+}
+.first-innerbox-title{
+  margin-top: 30px;
+  width: 100%;
+  border: solid 2px red;
+}
+.first-innerbox  h4{
+  color: #d1d5db;
+  margin-top: 5px;
+  /* margin: 20px 0px 20px ; */
+}
+.first-innerbox-title h1{
+  color: white;
+  margin-top: 20px;
+
+}
+
+.first-innerbox p{
+  color: #d5bfd3;
+}
+.first-innerbox-stats{
+  display: flex;
+  border: solid 2px green;
+  margin-top: 30px;
+}
+
+
+.second-innerbox{
+  width: 600px;
+  border: solid 2px blue;
+}
+
+
+.ivestor-relation-second-innerbox{
+display: flex;
+gap: 23px;
+justify-content: center;
+width: 90%;
+margin: 0px 0px 0px 70px;
+}
+
+
+
+.white-box{
+  background-color:white;
+  width: 400px;
+  height: 150px;
+  padding: 20px;
+}
+
+.white-box p{
+  font-size: 14px;
+  color: gray
+}
+
+.white-box h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
 
 .alatpay {
   background: rgb(255, 255, 255);
@@ -427,61 +533,7 @@ body {
   background: #981d87;
 }
 
-.investor-relations {
-  background: #f8f5fa;
-}
 
-.person3-section-heading {
-  max-width: 720px;
-}
-
-.investor-stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  margin: 40px 0 24px;
-}
-
-.investor-stat {
-  padding: 24px 18px;
-  border-radius: 12px;
-  background: #ffffff;
-  border-bottom: 4px solid #8d2196;
-}
-
-.investor-stat span {
-  display: block;
-  margin-bottom: 10px;
-  color: #77717e;
-  font-size: 0.72rem;
-  font-weight: 700;
-}
-
-.investor-stat strong {
-  color: #27104e;
-  font-size: 1rem;
-}
-
-.investor-links {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-}
-
-.investor-links a {
-  padding: 22px;
-  border-radius: 12px;
-  background: #ffffff;
-  color: #27104e;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.investor-links span {
-  float: right;
-  color: #8d2196;
-  font-size: 1.3rem;
-}
 
 .sustainability {
   background: #edf6ef;
